@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+		
+	 <properties resource="db.properties"></properties>
+	 <!-- 2.settings: 包含了很多重要的设置项 -->
+	 <settings>
+	 <!-- 映射下划线到驼峰命名 -->
+	 <!-- 2.settings: 包含了很多设置项 -->
+	 <setting name="mapUnderscoreToCamelCase" value="true"/>
+	 	<!-- 开启延迟加载 -->
+	 	<setting name="lazyLoadingEnabled" value="true"/>
+	 	<!-- 配置按需加载 -->
+	 	<setting name="aggressiveLazyLoading" value="false"/>
+	 </settings>
+	 
+
+</configuration>
